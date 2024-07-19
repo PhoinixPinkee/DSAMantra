@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Monserrate";
+  src: url('./assets/fonts/monsorrete.woff2');
+}
+:root{
+  --body_background:#101010;
+  --body_color:#fff;
+  --heading_color:red;
+
+}
+[data-theme="light"]{
+  --body_background:#fff;
+  --body_color:#000;
+  --heading_color:#000;
+ 
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:var(--body_background);
+  color:var(--body_color);
+  font-family:"Monserrate", sans-serif;
+}
